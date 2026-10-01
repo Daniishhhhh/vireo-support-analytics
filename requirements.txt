@@ -1,0 +1,6 @@
+# Vireo support tooling — pinned. Python 3.11+.
+pandas==2.3.3
+numpy==2.3.4
+pytest==8.4.1
+# install the local package (src layout) so `python -m vireo.run` works
+-e .

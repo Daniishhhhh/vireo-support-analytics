@@ -1,0 +1,23 @@
+# Data pack — never committed (place the raw files here yourself; see README)
+data/raw/
+data/processed/
+
+# Private, name-bearing outputs (only produced with `--with-names`)
+outputs/private/
+validation/sample_to_label.csv
+validation/sample_to_label.backup.csv
+validation/test_set_to_label.csv
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+PROJECT_SPEC_v2.md
+OPUS_BUILD_PROMPT.md
+README.txt
